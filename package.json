@@ -1,0 +1,31 @@
+{
+  "name": "ap-carousel",
+  "version": "0.0.1",
+  "description": "A simple carousel web component using Lit.",
+  "private": true,
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "scripts": {
+    "local": "webpack serve --host 0.0.0.0 --port 7070",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
+  },
+  "keywords": [
+    "carousel",
+    "web",
+    "component"
+  ],
+  "author": "arvindpunk",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.1"
+  }
+}
